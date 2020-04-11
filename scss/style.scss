@@ -1,0 +1,32 @@
+@import "_var";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: background 0.2s linear;
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+    background: transparent;
+    &-thumb {
+      border-radius: 10px;
+      background: $gradient-color;
+    }
+  }
+}
+
+@import "_header";
+@import "_main.scss";
+@import "_globlestyle";
+@import "_aboutme";
+@import "_brandArea";
+@import "_services";
+@import "_projectArea";
+@import "_client";
+@import "_subscribeMe";
+@import "_footerArea";
+@import "_Theme";

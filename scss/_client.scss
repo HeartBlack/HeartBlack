@@ -1,0 +1,31 @@
+.site-main {
+  .about-area {
+    .about-title p {
+      padding: 1rem 7rem;
+    }
+    .client {
+      background: #ffffff10;
+      box-shadow: $box-shadow;
+      margin: 3rem 0rem;
+      .client-img {
+        padding: 2rem;
+      }
+      .about-client {
+        padding-top: 2rem;
+        h4 {
+          font: normal 500 21px/20px $saira;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .owl-carousel {
+      .owl-item {
+        display: flex;
+        justify-content: center;
+        padding: 0 1.5rem;
+      }
+    }
+  }
+}

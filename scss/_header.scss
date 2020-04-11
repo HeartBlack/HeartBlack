@@ -1,0 +1,29 @@
+// Start Navigation
+
+.header-area {
+  .main-menu {
+    .navbar-nav {
+      .active {
+        a {
+          background-color: $gradient-color;
+          background-clip: text;
+        }
+      }
+    }
+    .navbar {
+      .navbar-brand {
+        padding: 0 2rem 0 2rem;
+      }
+      padding: 1rem 5rem;
+    }
+    .nav-item {
+      .nav-link {
+        text-transform: uppercase;
+        padding: 1.5rem;
+        color: $title-color;
+        font: normal 500 15px/2px $saira;
+      }
+    }
+  }
+}
+// End Navigation
